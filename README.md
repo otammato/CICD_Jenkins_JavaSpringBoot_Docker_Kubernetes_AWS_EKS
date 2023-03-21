@@ -108,7 +108,9 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword #unlock Jenkins
 ```
 <br><br>
 
-![image](https://user-images.githubusercontent.com/104728608/226750793-4a46a724-87e2-4196-b897-c7fd22d4be2b.png)
+![customize jenkins](https://user-images.githubusercontent.com/104728608/226751554-53623217-49f9-4bd0-93e4-c69c11511e64.png)
+
+![image](https://user-images.githubusercontent.com/104728608/226751493-9cddbd80-0545-4f68-9e67-6ee22a43a71d.png)
 
 <br><br>
 
@@ -130,10 +132,7 @@ install Docker plugins to Jenkins
 
 <img width="1281" alt="Screenshot 2023-03-21 at 21 42 16" src="https://user-images.githubusercontent.com/104728608/226748027-f5bff7fa-84fa-41ed-a3b6-b87acf998dfb.png">
 
-![customize jenkins](https://user-images.githubusercontent.com/104728608/226751554-53623217-49f9-4bd0-93e4-c69c11511e64.png)
-
-![image](https://user-images.githubusercontent.com/104728608/226751493-9cddbd80-0545-4f68-9e67-6ee22a43a71d.png)
-
+<img width="1267" alt="Screenshot 2023-03-21 at 21 45 41" src="https://user-images.githubusercontent.com/104728608/226751995-746547c8-d515-42d7-9b47-cd2f5a275a3d.png">
 
 restart services
 ```
