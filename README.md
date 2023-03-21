@@ -17,7 +17,6 @@
 
 
 ## <details markdown=1><summary markdown="span">Jenkins file</summary>
-
 ``` yml
 pipeline {
     agent any
