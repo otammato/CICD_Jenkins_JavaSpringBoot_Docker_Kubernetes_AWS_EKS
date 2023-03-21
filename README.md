@@ -6,3 +6,7 @@
 <br><br><br>
 
 <img width="1456" alt="Screenshot 2023-03-21 at 15 33 11" src="https://user-images.githubusercontent.com/104728608/226737690-be74ad69-6157-4f69-864b-cb31cce467b4.png">
+
+<br><br><br>
+
+<details markdown=1><summary markdown="span">1.1. Connect to a database</summary>
