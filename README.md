@@ -118,3 +118,11 @@ install Docker plugins to Jenkins
 <img width="1281" alt="Screenshot 2023-03-21 at 21 42 16" src="https://user-images.githubusercontent.com/104728608/226748027-f5bff7fa-84fa-41ed-a3b6-b87acf998dfb.png">
 
 <img width="1267" alt="Screenshot 2023-03-21 at 21 45 41" src="https://user-images.githubusercontent.com/104728608/226748774-e182dafa-a5a7-40d0-a1cc-1c940f9cce81.png">
+
+restart services
+```
+sudo usermod -a -G docker jenkins
+sudo service jenkins restart
+sudo systemctl daemon-reload
+sudo service docker restart
+```
