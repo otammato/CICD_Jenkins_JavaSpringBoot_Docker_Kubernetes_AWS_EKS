@@ -191,3 +191,12 @@ Create IAM Role with Administrator Access
 ```
 sudo su - jenkins
 ```
+```
+eksctl create cluster --name demo-eks --region us-east-1 --nodegroup-name my-nodes --node-type t3.small --managed --nodes 2 
+
+eksctl get cluster --name demo-eks --region us-east-1
+
+aws eks update-kubeconfig --name demo-eks --region us-east-1
+
+cat  /var/lib/jenkins/.kube/config
+```
