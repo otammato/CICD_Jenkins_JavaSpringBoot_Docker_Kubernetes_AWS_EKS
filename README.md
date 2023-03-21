@@ -142,3 +142,7 @@ sudo service jenkins restart
 sudo systemctl daemon-reload
 sudo service docker restart
 ```
+
+## 2. Create EKS cluster
+
+
