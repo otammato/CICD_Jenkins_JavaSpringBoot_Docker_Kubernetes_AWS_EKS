@@ -94,5 +94,13 @@ sudo apt install jenkins -y
 ```
 <br>
 
-Now go to browser. enter public dns name or public IP address with port no 8080.
+Now go to browser. enter public dns name or public IP address with port no 8080.<br>
 http://EC2_public_dns_name:8080
+
+<br><br>
+
+## 2. Install Docker on an EC2 instance
+
+```
+
+```
