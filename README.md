@@ -143,6 +143,8 @@ sudo systemctl daemon-reload
 sudo service docker restart
 ```
 
+<br><br>
+
 ## 2. Create EKS cluster
 
 
