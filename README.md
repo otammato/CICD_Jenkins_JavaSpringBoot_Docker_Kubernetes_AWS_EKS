@@ -78,3 +78,21 @@ pipeline {
 <br><br>
 
 ## 1. Install Jenkins on an EC2 instance
+
+```
+sudo hostnamectl set-hostname Jenkins
+sudo apt update
+sudo apt install default-jdk -y  #install Java 11
+
+sudo apt install maven -y #instal Maven
+```
+```
+wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+echo deb http://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+sudo apt update
+sudo apt install jenkins -y
+```
+<br>
+
+Now go to browser. enter public dns name or public IP address with port no 8080.
+http://EC2_public_dns_name:8080
