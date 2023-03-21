@@ -180,6 +180,8 @@ sudo chmod +x /usr/local/bin/kubectl
 
 kubectl version --short --client
 ```
-Create IAM Role with Administrator Access
+Create IAM Role with Administrator Access 
+
+<br>
 ...
 ...
