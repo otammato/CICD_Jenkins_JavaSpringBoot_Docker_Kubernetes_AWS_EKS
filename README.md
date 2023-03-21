@@ -16,7 +16,7 @@
 <br><br>
 
 
-### <details markdown=3><summary markdown="span">Jenkins file</summary>
+<details markdown=1><summary markdown="span">Jenkins file</summary>
 
 ``` yml
 pipeline {
@@ -71,7 +71,7 @@ pipeline {
 }
 
 ```
-### </details>
+</details>
 
 ---
 
