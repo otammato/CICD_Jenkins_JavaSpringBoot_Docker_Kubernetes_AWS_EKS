@@ -76,3 +76,5 @@ pipeline {
 ---
 
 <br><br>
+
+## 1. Install Jenkins on an EC2 instance
