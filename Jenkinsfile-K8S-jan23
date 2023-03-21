@@ -1,24 +1,28 @@
 pipeline {
     agent any
-
-    environment {
-        registry = "211223789150.dkr.ecr.us-east-1.amazonaws.com/my-docker-repo"
+    
+    tools {
+        maven 'Maven3'
     }
     
+    environment {
+        registry = "public.ecr.aws/y2b7b1f3/springboot_app"
+    }
+
     stages {
         stage('Checkout') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/akannan1087/springboot-app']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/otammato/CICD_Jenkins_JavaSpringBoot_Docker_Kubernetes_AWS_EKS.git']])
             }
         }
         
-        stage ("build Jar") {
+        stage('Build Jar') {
             steps {
                 sh "mvn clean install"
             }
         }
         
-        stage ("Build image") {
+        stage('Build Image') {
             steps {
                 script {
                     docker.build registry
@@ -26,19 +30,19 @@ pipeline {
             }
         }
         
-        stage ("Push to ECR") {
-            steps {
-                sh "aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 211223789150.dkr.ecr.us-east-1.amazonaws.com"
-                sh "docker push 211223789150.dkr.ecr.us-east-1.amazonaws.com/my-docker-repo:latest"
-                
+        stage('Pushing to ECR') {
+            steps{  
+                script {
+                    sh 'aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/y2b7b1f3'
+                    sh 'docker push public.ecr.aws/y2b7b1f3/springboot_app:latest'
+                }
             }
         }
         
-        stage ("Deploy to K8S") {
-            steps {
+        stage('K8s Deploy') {
+            steps{
                 withKubeConfig(caCertificate: '', clusterName: '', contextName: '', credentialsId: 'K8S', namespace: '', restrictKubeConfigAccess: false, serverUrl: '') {
-                sh "kubectl apply -f eks-deploy-k8s.yaml"
-                    
+                    sh "kubectl apply -f eks-deploy-k8s.yaml"
                 }
             }
         }
