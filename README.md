@@ -100,9 +100,9 @@ http://EC2_public_dns_name:8080
 
 <br><br>
 
-![image](https://user-images.githubusercontent.com/104728608/226750430-73590191-9322-42b1-9b57-cf96dff2fee4.png)
+![unlock jenkins](https://user-images.githubusercontent.com/104728608/226752568-5b413ec3-9b8a-4e3a-bbd5-3e765cca0f45.png)
 
-<br><br>
+<br>
 
 ```
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword #unlock Jenkins
