@@ -99,6 +99,19 @@ http://EC2_public_dns_name:8080
 
 <br><br>
 
+![image](https://user-images.githubusercontent.com/104728608/226750430-73590191-9322-42b1-9b57-cf96dff2fee4.png)
+
+<br><br>
+
+```
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword #unlock Jenkins
+```
+<br><br>
+
+![image](https://user-images.githubusercontent.com/104728608/226750793-4a46a724-87e2-4196-b897-c7fd22d4be2b.png)
+
+<br><br>
+
 ## 2. Install Docker on an EC2 instance
 
 ```
