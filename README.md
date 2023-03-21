@@ -102,5 +102,13 @@ http://EC2_public_dns_name:8080
 ## 2. Install Docker on an EC2 instance
 
 ```
-
+sudo apt-get update
+sudo apt install gnupg2 pass -y
+sudo apt install docker.io -y
+sudo usermod -aG docker $USER
+newgrp docker
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo systemctl status docker
 ```
+<img width="1281" alt="Screenshot 2023-03-21 at 21 42 16" src="https://user-images.githubusercontent.com/104728608/226748027-f5bff7fa-84fa-41ed-a3b6-b87acf998dfb.png">
