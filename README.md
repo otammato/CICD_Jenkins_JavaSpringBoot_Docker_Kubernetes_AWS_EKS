@@ -170,3 +170,13 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 eksctl version
 ```
+
+Install kubectl on EC2 Instance
+
+```
+sudo curl --silent --location -o /usr/local/bin/kubectl   https://s3.us-west-2.amazonaws.com/amazon-eks/1.22.6/2022-03-09/bin/linux/amd64/kubectl
+
+sudo chmod +x /usr/local/bin/kubectl 
+
+kubectl version --short --client
+```
