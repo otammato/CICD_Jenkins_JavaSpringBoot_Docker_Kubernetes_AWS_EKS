@@ -3,7 +3,7 @@
 
 [ CI/CD, Jenkins, Kubernetes, Docker, EKS, ECR ] CI/CD Jenkins pipeline to deploy a Dockerized Java SpringBoot app  to EKS cluster
 
-<br><br>
+<br>
 
 ## Result:
 
