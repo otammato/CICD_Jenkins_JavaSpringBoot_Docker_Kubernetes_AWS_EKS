@@ -183,7 +183,8 @@ kubectl version --short --client
 Create IAM Role with Administrator Access 
 
 <br>
-...
+<img width="700" alt="Screenshot 2023-03-22 at 08 30 45" src="https://user-images.githubusercontent.com/104728608/226843952-8aa6336f-4dfa-4d1b-9f00-caa9fac1e53d.png">
+
 ...
 
 <br>
