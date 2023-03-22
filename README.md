@@ -207,3 +207,7 @@ cat  /var/lib/jenkins/.kube/config
 <img width="700" alt="Screenshot 2023-03-21 at 14 57 52" src="https://user-images.githubusercontent.com/104728608/226848957-044c701a-8bf6-4b51-be46-49411fb4d0e5.png">
 
 <img width="700" alt="Screenshot 2023-03-22 at 08 51 00" src="https://user-images.githubusercontent.com/104728608/226849926-e84e642c-3245-4c90-a363-d7eff1243920.png">
+
+<img width="1142" alt="Screenshot 2023-03-22 at 08 54 42" src="https://user-images.githubusercontent.com/104728608/226851112-c8c9e7aa-3844-4b91-ab5b-59b70508779b.png">
+
+
