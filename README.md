@@ -203,3 +203,5 @@ aws eks update-kubeconfig --name demo-eks --region us-east-1
 cat  /var/lib/jenkins/.kube/config
 ```
 <img width="700" alt="Screenshot 2023-03-21 at 14 57 03" src="https://user-images.githubusercontent.com/104728608/226848177-38710c6a-3b2d-460b-9331-a718d0ef07db.png">
+
+<img width="700" alt="Screenshot 2023-03-21 at 14 57 52" src="https://user-images.githubusercontent.com/104728608/226848957-044c701a-8bf6-4b51-be46-49411fb4d0e5.png">
