@@ -69,13 +69,13 @@ pipeline {
 
 <br>
 
-<img width="1456" alt="Screenshot 2023-03-21 at 15 33 11" src="https://user-images.githubusercontent.com/104728608/226737690-be74ad69-6157-4f69-864b-cb31cce467b4.png">
+<img width="700" alt="Screenshot 2023-03-21 at 15 33 11" src="https://user-images.githubusercontent.com/104728608/226737690-be74ad69-6157-4f69-864b-cb31cce467b4.png">
 
-<img width="1346" alt="Screenshot 2023-03-21 at 15 22 02" src="https://user-images.githubusercontent.com/104728608/226742394-82127049-ee83-40eb-bd56-3910e2d0b4ea.png">
+<img width="700" alt="Screenshot 2023-03-21 at 15 22 02" src="https://user-images.githubusercontent.com/104728608/226742394-82127049-ee83-40eb-bd56-3910e2d0b4ea.png">
 
-<img width="1173" alt="Screenshot 2023-03-22 at 09 11 25" src="https://user-images.githubusercontent.com/104728608/226854951-35d3e2e7-b685-449c-9b3d-519a3a771136.png">
+<img width="700" alt="Screenshot 2023-03-22 at 09 11 25" src="https://user-images.githubusercontent.com/104728608/226854951-35d3e2e7-b685-449c-9b3d-519a3a771136.png">
 
-<img width="1156" alt="Screenshot 2023-03-22 at 09 14 29" src="https://user-images.githubusercontent.com/104728608/226855743-aad8ea15-96c0-4f6e-9c39-d8a857c52abe.png">
+<img width="700" alt="Screenshot 2023-03-22 at 09 14 29" src="https://user-images.githubusercontent.com/104728608/226855743-aad8ea15-96c0-4f6e-9c39-d8a857c52abe.png">
 
 <br><br>
 
