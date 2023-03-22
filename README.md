@@ -233,3 +233,4 @@ save /var/lib/jenkins/.kube/config content at your local machine in kubeconfig_m
 
 <img width="700" alt="Screenshot 2023-03-21 at 14 12 38" src="https://user-images.githubusercontent.com/104728608/226857546-d0b03976-87b4-4d10-bbe2-98ab85a208e0.png">
 
+<img width="700" alt="Screenshot 2023-03-21 at 15 22 02" src="https://user-images.githubusercontent.com/104728608/226742394-82127049-ee83-40eb-bd56-3910e2d0b4ea.png">
