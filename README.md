@@ -77,6 +77,8 @@ pipeline {
 
 <img width="700" alt="Screenshot 2023-03-22 at 09 14 29" src="https://user-images.githubusercontent.com/104728608/226855743-aad8ea15-96c0-4f6e-9c39-d8a857c52abe.png">
 
+<img width="700" alt="Screenshot 2023-03-21 at 14 12 38" src="https://user-images.githubusercontent.com/104728608/226857836-ba299e94-8308-4723-a7f7-73de3ed9294a.png">
+
 <br><br>
 
 
