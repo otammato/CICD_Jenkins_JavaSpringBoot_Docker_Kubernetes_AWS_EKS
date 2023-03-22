@@ -192,7 +192,7 @@ sudo chmod +x /usr/local/bin/kubectl
 
 kubectl version --short --client
 ```
-For smooth testing create IAM Role with Administrator Access. Later the privileges must be limited according to the "least privilege" principle.
+For the smooth testing create IAM Role with Administrator Access. Later the privileges must be limited according to the "least privilege" principle.
 
 <br>
 <img width="700" alt="Screenshot 2023-03-22 at 08 30 45" src="https://user-images.githubusercontent.com/104728608/226843952-8aa6336f-4dfa-4d1b-9f00-caa9fac1e53d.png">
