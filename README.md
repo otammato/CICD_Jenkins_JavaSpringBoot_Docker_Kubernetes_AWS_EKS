@@ -125,6 +125,12 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword #unlock Jenkins
 
 <img width="700" alt="Screenshot 2023-03-21 at 21 42 16" src="https://user-images.githubusercontent.com/104728608/226751493-9cddbd80-0545-4f68-9e67-6ee22a43a71d.png">
 
+configure Maven under Global tool configuration
+
+<img width="700" alt="Screenshot 2023-03-22 at 09 44 08" src="https://user-images.githubusercontent.com/104728608/226865524-804cf595-1a84-4a6b-bf74-b4cceeb1272f.png">
+
+<img width="700" alt="Screenshot 2023-03-22 at 09 45 05" src="https://user-images.githubusercontent.com/104728608/226865528-100a16ed-eaf9-417e-8dfb-f58e0f2e2808.png">
+
 <br><br>
 
 ## 2. Install Docker on an EC2 instance
@@ -146,13 +152,6 @@ install Docker plugins to Jenkins
 <img width="700" alt="Screenshot 2023-03-21 at 21 42 16" src="https://user-images.githubusercontent.com/104728608/226748027-f5bff7fa-84fa-41ed-a3b6-b87acf998dfb.png">
 
 <img width="700" alt="Screenshot 2023-03-21 at 21 45 41" src="https://user-images.githubusercontent.com/104728608/226751995-746547c8-d515-42d7-9b47-cd2f5a275a3d.png">
-
-configure Maven under Global tool configuration
-
-<img width="700" alt="Screenshot 2023-03-22 at 09 44 08" src="https://user-images.githubusercontent.com/104728608/226865524-804cf595-1a84-4a6b-bf74-b4cceeb1272f.png">
-
-<img width="700" alt="Screenshot 2023-03-22 at 09 45 05" src="https://user-images.githubusercontent.com/104728608/226865528-100a16ed-eaf9-417e-8dfb-f58e0f2e2808.png">
-
 
 restart services
 ```
