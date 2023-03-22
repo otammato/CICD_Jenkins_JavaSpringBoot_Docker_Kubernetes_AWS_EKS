@@ -147,6 +147,13 @@ install Docker plugins to Jenkins
 
 <img width="700" alt="Screenshot 2023-03-21 at 21 45 41" src="https://user-images.githubusercontent.com/104728608/226751995-746547c8-d515-42d7-9b47-cd2f5a275a3d.png">
 
+configure Maven under Global tool configuration
+
+<img width="700" alt="Screenshot 2023-03-22 at 09 44 08" src="https://user-images.githubusercontent.com/104728608/226865524-804cf595-1a84-4a6b-bf74-b4cceeb1272f.png">
+
+<img width="700" alt="Screenshot 2023-03-22 at 09 45 05" src="https://user-images.githubusercontent.com/104728608/226865528-100a16ed-eaf9-417e-8dfb-f58e0f2e2808.png">
+
+
 restart services
 ```
 sudo usermod -a -G docker jenkins
