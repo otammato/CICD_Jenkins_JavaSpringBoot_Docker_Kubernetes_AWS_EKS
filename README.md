@@ -184,6 +184,12 @@ sudo ./aws/install
 aws --version
 ```
 
+configure aws cli using your Access key and Secret access key
+
+```
+aws configure
+```
+
 Install eksctl on EC2 Instance
 
 ```
